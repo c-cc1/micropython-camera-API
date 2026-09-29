@@ -1,4 +1,6 @@
 include(${MICROPY_DIR}/py/py.cmake)
+set(CONFIG_CAMERA_OV2640 y)
+set(CONFIG_CAMERA_OV5640 y)
 
 set(MICROPY_FROZEN_MANIFEST ${CMAKE_CURRENT_LIST_DIR}/manifest.py)
 
